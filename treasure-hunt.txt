@@ -1,0 +1,434 @@
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop
+$ git clone https://github.com/Revature-Training-1302/exercises.git
+Cloning into 'exercises'...
+remote: Enumerating objects: 46, done.
+remote: Counting objects: 100% (46/46), done.
+remote: Compressing objects: 100% (33/33), done.
+remote: Total 46 (delta 6), reused 42 (delta 5), pack-reused 0
+Receiving objects: 100% (46/46), 5.05 KiB | 1.68 MiB/s, done.
+Resolving deltas: 100% (6/6), done.
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop
+$ cd exercises
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises (main)
+$ ls
+dummy_file  week1/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises (main)
+$ cd week1
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1 (main)
+$ ls
+8.2.md  git-exercise.md  unix_exercise/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1 (main)
+$ cd unix_exercise
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise (main)
+$ cd house
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  trash1  trash2  treasure1  washer
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ rm trash1 trash2
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ mv treasure1 ../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  treasure1
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/chest (main)
+$ cd ../
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise (main)
+$ ls
+chest/  house/  instructions.txt
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise (main)
+$ cd house
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ basement
+bash: basement: command not found
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd storage
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ ls
+bicycle  trash3  treasure2
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ rm trash3
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ mv treasure2 ../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/storage (main)
+$ cd ../..
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor0
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd bathroom
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ ls
+cabinet/  mat  mirror
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom (main)
+$ cd cabinet
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ ls
+3  brush  comb  shampoo  soap  toothbrush  toothpaste  trasure
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ mv trasure ../../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/bathroom/cabinet (main)
+$ cd ../..
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd kitchen
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd fridge
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ ls
+bread  carrots  chicken  eggs  juice  milk  soda  trash4  trash5  trasure4
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash4
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ rm trash5
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ mv trasure4 ../../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/fridge (main)
+$ cd ..
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd oven
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ ls
+chicken-roast
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/oven (main)
+$ cd ..
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ ls
+fridge/  oven/  pantry/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen (main)
+$ cd pantry
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ ls
+cereal  chips  cookies  crackers  trash6
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ rm trash6
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/kitchen/pantry (main)
+$ cd ../..
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd living-room
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ ls
+TV  bookshelf/  chair  couch  table
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/living-room (main)
+$ cd bookshelf
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ ls
+animal-farm  harry-potter  it  lord-of-the-rings  trash7  trasure5
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ rm trash7
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ mv trasure5 ../../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0/living-room/bookshelf (main)
+$ cd ../..
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ ls
+bathroom/  kitchen/  living-room/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor0 (main)
+$ cd ../
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd floor1
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd balcony
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ ls
+chair  plant  trash10  trash11
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ rm trash10 trash11
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/balcony (main)
+$ cd ../
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bathroom
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ ls
+sink  toilet  tub
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bathroom (main)
+$ cd ../
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom1
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd closet
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ ls
+board-game  toy  trash8  trash9
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ rm trash8 trash9
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/closet (main)
+$ cd ../
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd dresser
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ ls
+pants  shirt  socks
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/dresser (main)
+$ cd ../
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ ls
+TV  bed  closet/  dresser/  toy-chest/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1 (main)
+$ cd toy-chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ ls
+car  cow  dinosaur  space-ship  trasure6  truck
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ mv trasure6 ../../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom1/toy-chest (main)
+$ cd ../../
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ ls
+balcony/  bathroom/  bedroom1/  bedroom2/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1 (main)
+$ cd bedroom2
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ ls
+bed  closet/  desk  mirror
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2 (main)
+$ cd closet
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ ls
+suit  tie  treasure7
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ mv treasure7 ../../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor1/bedroom2/closet (main)
+$ cd ../../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/chest (main)
+$ cd ../house
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ ls
+basement/  floor0/  floor1/  floor2/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house (main)
+$ cd basement
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ ls
+laundry-room/  storage/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement (main)
+$ cd laundry-room
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ ls
+clothes  dryer  drying-rack  soap  washer
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/basement/laundry-room (main)
+$ cd ../../floor2
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ ls
+storage/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2 (main)
+$ cd storage
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ ls
+box1/  box2/  box3/
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage (main)
+$ cd box1
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ ls
+trash12  trash13  trash14
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ rm trash12 trash13 trash14
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box1 (main)
+$ cd ../box2
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ ls
+halloween-decoration  holiday-decoration  ice-skates  sweaters  treasure8
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ mv treasure8 ../../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box2 (main)
+$ cd ../box3
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ ls
+posters  trash15  treasure9
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ rm trash15
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ mv treasure9 ../../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/house/floor2/storage/box3 (main)
+$ cd ../../../../chest
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/chest (main)
+$ ls
+dummy  trasure  trasure4  trasure5  trasure6  treasure1  treasure2  treasure7  treasure8  treasure9
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/chest (main)
+$ find . -name trash*
+
+gavin@WIN-DFA73NO66OO MINGW64 ~/OneDrive/Desktop/exercises/week1/unix_exercise/chest (main)
+$
+
