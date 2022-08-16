@@ -205,12 +205,21 @@ public class Menus implements IMainMenu, IManagerPortal, IEmployeePortal{
         switch(option) {
             case 1:
                 System.out.println("Approved Submissions");
+                for(int j = 0; j < ticketArray.length; j ++) {
+                    System.out.println(ticketArray[j]);
+                }
                 break;
             case 2:
                 System.out.println("Denied Submissions");
+                for(int j = 0; j < ticketArray.length; j ++) {
+                    System.out.println(ticketArray[j]);
+                }
                 break;
             case 3:
                 System.out.println("Pending Submissions");
+                for(int j = 0; j < ticketArray.length; j ++) {
+                    System.out.println(ticketArray[j]);
+                }
                 break;
         }
     }
