@@ -15,6 +15,7 @@ public class AvatarCharacterController {
         //set up scanners
         Scanner numScanner = new Scanner(System.in);
         Scanner stringScanner = new Scanner(System.in);
+        Scanner booleanScanner = new Scanner(System.in);
         //loop endlessly
         while(true) {
             //print the options
@@ -29,7 +30,7 @@ public class AvatarCharacterController {
                     System.out.println("Character nation => ");
                     String nation = stringScanner.nextLine();
                     System.out.println("Bender status => ");
-                    boolean bender = stringScanner.nextBoolean();
+                    boolean bender = booleanScanner.nextBoolean();
                     AvatarCharacter newCharacter = new AvatarCharacter(name,nation,bender);
                     System.out.println(avatarCharacterService.insert(newCharacter));
                     break;
@@ -53,7 +54,7 @@ public class AvatarCharacterController {
                     System.out.println("nation => ");
                     nation = stringScanner.nextLine();
                     System.out.println("bender status => ");
-                    bender = stringScanner.nextBoolean();
+                    bender = booleanScanner.nextBoolean();
                     AvatarCharacter avatarCharacter = new AvatarCharacter(id,name,nation,bender);
                     System.out.println(avatarCharacterService.update(avatarCharacter));
                     break;

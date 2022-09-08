@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c45c4348-cbab-4712-ab42-889f8c59af34" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/controller/MainCommandLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/src/main/java/com/revature/MyServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FirstServlet/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logging/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logging/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logging/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logging/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logging/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logging/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logging/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logging/src/main/java/com/revature/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Logging/src/test/java/com/revature/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/controller/ManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/controller/ManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/controller/TicketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/controller/TicketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/ConnectionFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/EmployeeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/EmployeeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/EmployeeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/EmployeeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/ManagerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/ManagerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/ManagerDaoTempImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/ManagerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/TicketDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/TicketDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/TicketDaoTempImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/data/TicketDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/entity/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/entity/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/service/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/service/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/service/ManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/service/ManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/service/TicketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/src/main/java/com/revature/service/TicketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/controller/ManagerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/controller/ManagerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/controller/TicketController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/controller/TicketController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/ConnectionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/EmployeeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/EmployeeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/EmployeeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/EmployeeDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/ManagerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/ManagerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/ManagerDaoTempImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/TicketDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/TicketDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/data/TicketDaoTempImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/entity/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/entity/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/service/EmployeeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/service/EmployeeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/service/ManagerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/service/ManagerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/service/TicketService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ERS-Foundations/target/classes/com/revature/service/TicketService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FoundationsProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoundationsProject/expense_reimbursement_system/IEmployeePortal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoundationsProject/expense_reimbursement_system/IMainMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoundationsProject/expense_reimbursement_system/IManagerPortal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoundationsProject/expense_reimbursement_system/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FoundationsProject/expense_reimbursement_system/Menus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expense_reimbursement_system/IEmployeePortal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expense_reimbursement_system/IMainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expense_reimbursement_system/IManagerPortal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expense_reimbursement_system/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expense_reimbursement_system/Menus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice-Project-1/src/main/java/com/revature/controller/AvatarCharacterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Project-1/src/main/java/com/revature/controller/AvatarCharacterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice-Project-1/src/main/java/com/revature/data/AvatarCharacterDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Project-1/src/main/java/com/revature/data/AvatarCharacterDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice-Project-1/src/main/java/com/revature/data/DaoFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Project-1/src/main/java/com/revature/data/DaoFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice-Project-1/src/main/java/com/revature/service/AvatarCharacterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Project-1/src/main/java/com/revature/service/AvatarCharacterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice-Project-1/target/classes/com/revature/controller/AvatarCharacterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Project-1/target/classes/com/revature/controller/AvatarCharacterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice-Project-1/target/classes/com/revature/data/AvatarCharacterDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Project-1/target/classes/com/revature/data/AvatarCharacterDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice-Project-1/target/classes/com/revature/data/DaoFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Project-1/target/classes/com/revature/data/DaoFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Practice-Project-1/target/classes/com/revature/service/AvatarCharacterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice-Project-1/target/classes/com/revature/service/AvatarCharacterService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DDw2caNmQJyI0f8KBBwC5Ahn0l" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="expense_reimbursement_system.Main" />
+      <module name="FoundationsProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="expense_reimbursement_system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c45c4348-cbab-4712-ab42-889f8c59af34" name="Changes" comment="" />
+      <created>1660246759184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660246759184</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -27,7 +27,6 @@ public AvatarCharacterDaoImpl() {
             preparedStatement.setBoolean(3, avatarCharacter.getBender());
 
             //we've set up the string but haven't executed the statement
-            preparedStatement.executeUpdate();
             int count = preparedStatement.executeUpdate();
             if(count == 1){
                 System.out.println("Character added successfully!");
@@ -53,7 +52,6 @@ public AvatarCharacterDaoImpl() {
     try{
         PreparedStatement preparedStatement = connection.prepareStatement(sql);
         preparedStatement.setInt(1,id);
-        System.out.println(preparedStatement);
 
         ResultSet resultSet = preparedStatement.executeQuery();
 

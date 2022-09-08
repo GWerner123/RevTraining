@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>  
+        <ul>
+            <li id = "logo"><h1>National Park Service</h1></li>
+            <li><button>Find a Park</button></li>
+            <li><button>About Us</button></li>
+            <li><button>News</button></li>
+            <li><button>Volunteer</button></li>
+        </ul>
+    </nav>
+
+    <div id = "picture">
+
+    <img src="https://th.bing.com/th/id/R.5a6483caab0552854d8aa423a5077c16?rik=1NTNqOfinfec4g&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f01%2f182993-landscape-nature-canyon-river-Grand_Canyon-Arizona.jpg&ehk=veKGTHpyn3ccaFl0MaLaB33%2fICGVkTL4vVI4EuBhmaU%3d&risl=&pid=ImgRaw&r=0"/>
+
+    </div>
+
+<div id="tableBox">
+
+    <table>
+        <caption>Free Entrance Days in 2022</caption>
+
+        <th>Date</th>
+        <th>Holiday</th>
+
+        <tr>
+            <td>January 17</td>
+            <td>Birthday of Martin Luther King, Jr.</td>
+        </tr>
+        <tr>
+            <td>April 16</td>
+            <td>First day of National Park Week</td>
+        </tr>
+        <tr>
+            <td>August 4</td>
+            <td>Anniversary of the Great American Outdoors Act</td>
+        </tr>
+        <tr>
+            <td>September 24</td>
+            <td>National Public Lands Day</td>
+        </tr>
+        <tr>
+            <td>November 11</td>
+            <td>Veterans Day</td>
+        </tr>
+    </table>
+</div>
+
+<div id = "formBox">
+    <form>
+
+        <h3>Enter your information to stay up to date with the National Park Service:</h3>
+
+        <label for = "fn">First Name</label>
+        <input id = "fn" name = "fn" type = "text"/>
+        <br/>
+
+        <label for = "ln">Last Name</label>
+        <input id = "ln" name = "ln" type = "text"/>
+        <br/>
+
+        <label for = "em">Email</label>
+        <input id = "em" name = "em" required type = "text"/>
+        <br/>
+
+        <h4>What types of emails would you like to receive from us?</h4>
+
+        <input checked type = "checkbox" id = "dnd" name = "dnd" value = "Discounts and Deals"/>
+        <label for = "dnd">Discounts and Deals</label>
+        <br/>
+        <input checked type = "checkbox" id = "ff" name = "ff" value = "Fun Facts"/>
+        <label for = "ff">Fun Facts</label>
+        <br/>
+        <input checked type = "checkbox" id = "ev" name = "ev" value = "Events"/>
+        <label for = "ev">Events</label>
+        <br/>
+        <input checked type = "checkbox" id = "nps" name = "nps" value = "National Park Spotlight"/>
+        <label for = "nps">National Park Spotlight</label>
+        <br/>
+
+        <h4>How often would you like to receive emails from us?</h4>
+
+        <input checked required type = "radio" id = "wk" name = "schedule" value = "Weekly"/>
+        <label for = "wk">Weekly</label>
+
+        <input type = "radio" id = "mn" name = "schedule" value = "Monthly"/>
+        <label for = "mn">Monthly</label>
+        <br/>
+
+        <button id="submitButton">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
