@@ -5,6 +5,7 @@ html, body{
     margin: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow: overlay;
+    background-color: #D9E5D6;
 }
 
 ul {
